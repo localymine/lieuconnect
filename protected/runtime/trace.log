@@ -1,0 +1,64 @@
+2014/09/15 18:27:41 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/09/16 05:34:01 [trace] [application] frontend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (79)
+in D:\xampp\htdocs\lilely\protected\models\AUserLogin.php (49)
+in D:\xampp\htdocs\lilely\protected\controllers\AccountController.php (233)
+2014/09/16 05:58:30 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/09/16 10:38:41 [trace] [application] frontend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (79)
+in D:\xampp\htdocs\lilely\protected\models\AUserLogin.php (49)
+in D:\xampp\htdocs\lilely\protected\controllers\AccountController.php (233)
+2014/09/16 10:41:25 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/09/18 11:35:38 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/09/22 05:00:22 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/10/07 14:15:13 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/10/16 04:51:56 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/10/29 03:24:24 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/11/08 07:05:35 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2014/12/23 19:53:53 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2015/01/02 06:33:39 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2015/01/06 17:30:24 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2015/01/25 13:29:51 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)
+2015/01/28 18:02:09 [trace] [application] backend
+in D:\xampp\htdocs\lilely\protected\modules\user\components\UserIdentity.php (53)
+in D:\xampp\htdocs\lilely\protected\modules\user\models\UserLogin.php (48)
+in D:\xampp\htdocs\lilely\protected\modules\user\controllers\LoginController.php (20)

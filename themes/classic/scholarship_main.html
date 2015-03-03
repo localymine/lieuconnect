@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="ico/favicon.ico">
+        <title>Lilely Connect</title>
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="css/style.css" rel="stylesheet">
+        <!-- Just for debugging purposes. Don't actually copy this line! -->
+        <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="navbar-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-md-offset-1">
+                                <ul class="nav navbar-nav navbar-right nav-lang">
+                                    <li><a href="#" class="lang-btn vi-lang active">Vietnamese</a></li>
+                                    <li><a href="#" class="lang-btn en-lang">English</a></li>
+                                    <li><a href="#" class="lang-btn es-lang">Spanish</a></li>
+                                </ul>
+                                <nav class="navbar navbar-default" role="navigation">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav nav-menu">
+                                            <li><a class="active" href="#">Home</a></li>
+                                            <li><a href="#">LilelyConnect</a></li>
+                                            <li><a href="#">Scholarship</a></li>
+                                            <li><a href="#">Internship</a></li>
+                                            <li><a href="#">Colleges</a></li>
+                                            <li class="dropdown nav-menu-dropdown">
+                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-align-justify"></i><i class="glyphicon glyphicon-align-justify"></i></a>
+                                                <ul class="dropdown-menu">
+
+                                                    <li class="dropdown-signup"><a href="#">Sign Up</a> or <a href="#">Sign In</a> to access My Student Center</li>
+                                                    <li class="divider"></li>
+                                                    <li class="drop-title">My Student Center</li>
+                                                    <li><i class="fa fa-pencil fa-fw"></i><a href="#">My Scholarship</a></li>
+                                                    <li><i class="fa fa-pencil fa-fw"></i><a href="#">My Intership</a></li>
+                                                    <li><i class="fa fa-pencil fa-fw"></i><a href="#">My Colleges</a></li>
+                                                    <li><i class="fa fa-star fa-fw"></i><a href="#">Read More</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+
+
+                                        <form class="navbar-form navbar-right nav-search" role="search">
+                                            <div class="form-group"><input type="text" class="form-control search-width search" ></div>
+                                        </form>
+                                    </div>
+                                    <!-- /.navbar-collapse -->
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-bar">
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="high">
+                            <form>
+                                <div class="row">
+                                    <div class="col-md-10 no-padding">
+                                        <input type="text" name="job" class="form-control" placeholder="Enter job title, position, ...">
+                                    </div>
+                                    <div class="col-md-2 no-padding popup-go">
+                                        <input type="submit" class="btn btn-default btn-go hidden-sm hidden-xs" value="Go">
+                                    </div>
+                                </div>
+                                <div class="row option-choice">
+                                    <div class="col-md-5 no-padding">
+                                        <select class="form-control">
+                                            <option>All categories</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-5 no-padding">
+                                        <select class="form-control">
+                                            <option>Location</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row visible-sm visible-xs popup-go">
+                                    <input type="submit" class="btn btn-default btn-go" value="Go">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane" id="college">...</div>
+                    </div>
+                </div>
+                <div class="main-frame ">
+                    <div class="feature">
+                        <a href="#" class="lilely-btn no-clickable">Student of the Month Scholarship Winner</a>
+                    </div>
+                    <div class="main scholarship">
+                        <div class="col-md-8 col-xs-12 no-padding">
+                            <div class="col-md-5 col-xs-5 no-padding">	
+                                <img src="img/scholarship/scholarship-feature.png" class="img-responsive">
+                            </div>
+                            <div class="col-md-7 col-xs-7 winner-detail">
+                                <h2 >Jacqueline Nguyen</h2>
+                                <p class="reward" >July Winner</p>
+                                <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry.  release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 no-padding">
+                            <ul class="winner-list">
+                                <li>
+                                    <div class="col-md-3 col-xs-4 no-padding">
+                                        <img src="img/scholarship/scholarship-feature.png" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-9 col-xs-8 no-padding">
+                                        <h2 >Jacqueline Nguyen</h2>
+                                        <p class="reward" >July Winner</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-3 col-xs-4 no-padding">
+                                        <img src="img/scholarship/scholarship-feature.png" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-9 col-xs-8 no-padding">
+                                        <h2 >Jacqueline Nguyen</h2>
+                                        <p class="reward" >July Winner</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-3 col-xs-4 no-padding">
+                                        <img src="img/scholarship/scholarship-feature.png" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-9 col-xs-8 no-padding">
+                                        <h2 >Jacqueline Nguyen</h2>
+                                        <p class="reward" >July Winner</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="col-md-3 col-xs-4 no-padding">
+                                        <img src="img/scholarship/scholarship-feature.png" class="img-responsive">
+                                    </div>
+                                    <div class="col-md-9 col-xs-8 no-padding">
+                                        <h2 >Jacqueline Nguyen</h2>
+                                        <p class="reward" >July Winner</p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="main-frame">
+                    <div class="feature">
+                        <a href="#" class="lilely-btn no-clickable">New Scholarship</a>
+                    </div>
+                    <div class="main new-scholarship">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div><div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div>
+                                    <h2 >Jacqueline Nguyen</h2>
+                                    <p class="reward" >July Winner</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="col-md-12 ">
+                        <ul class="nav-mod">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">About & FAQ</a></li>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript
+           ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script type="js/main.js"></script>
+        <script type="text/javascript"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.btn-go').click(function(e) {
+                    $('.popup-go').append('<div class="popup-go-button"><button class="go">Go</button><button>Gone</button></div>');
+                    e.preventDefault();
+                    return false;
+                });
+
+            })
+        </script>
+    </body>
+</html>

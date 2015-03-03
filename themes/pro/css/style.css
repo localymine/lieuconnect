@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 4, 2014, 12:03:33 PM
+    Author     : khangld
+*/
+
+.lst_category{
+    max-height: 350px;
+    height: 350px;
+    overflow: auto;
+}
+.lst_category.auto{
+    height: auto;
+}
+
+.lv0{ margin-left: 0px;}
+.lv1{ margin-left: 15px;}
+.lv2{ margin-left: 30px;}
+.lv3{ margin-left: 45px;}
+.lv4{ margin-left: 60px;}
+.lv5{ margin-left: 75px;}
+.lv6{ margin-left: 90px;}
+.lv7{ margin-left: 105px;}
+.lv8{ margin-left: 120px;}
+.lv9{ margin-left: 135px;}
+.lv10{ margin-left: 150px;}
+
+.slv0{ text-indent: 0px;}
+.slv1{ text-indent: 15px;}
+.slv2{ text-indent: 30px;}
+.slv3{ text-indent: 45px;}
+.slv4{ text-indent: 60px;}
+.slv5{ text-indent: 75px;}
+.slv6{ text-indent: 90px;}
+.slv7{ text-indent: 105px;}
+.slv8{ text-indent: 120px;}
+.slv9{ text-indent: 135px;}
+.slv10{ text-indent: 150px;}
+
+.bold{font-weight: bold}
+.hand{cursor: pointer;}
+
+.status-show{ color: #1BBAE1; }
+.status-hide{ color: #ccc; }
+
+#ajaxloader{
+    width: 100%;
+    height: 100%;
+    /*background: #fff;*/
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1 !important;
+    /*    filter: alpha(opacity=10);  internet explorer */
+    /*    -khtml-opacity: 0.10;       khtml, old safari */
+    /*    -moz-opacity: 0.10;        mozilla, netscape */
+    /*    opacity: 0.10;            fx, safari, opera */
+}
+.ajaxloader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+@-webkit-keyframes FOCUS_BORDER {
+    0%   { border-color: #1BBAE1 }
+    50%  { border-color: white }
+    100% { border-color: #1BBAE1 }
+}
+@-moz-keyframes FOCUS_BORDER {
+    0%   { border-color: #1BBAE1 }
+    50%  { border-color: white }
+    100% { border-color: #1BBAE1 }
+}
+@-o-keyframes FOCUS_BORDER {
+    0%   { border-color: #1BBAE1 }
+    50%  { border-color: white }
+    100% { border-color: #1BBAE1 }
+}
+@keyframes FOCUS_BORDER {
+    0%   { border-color: #1BBAE1 }
+    50%  { border-color: white }
+    100% { border-color: #1BBAE1 }
+}
+.form-control-focus{
+    -webkit-transition: all 1s;
+    -webkit-animation: FOCUS_BORDER 2s infinite;
+
+    -moz-animation: all 1s;
+    -moz-animation: FOCUS_BORDER 2s infinite;
+
+    -o-animation: all 1s;
+    -o-animation: FOCUS_BORDER 2s infinite;
+
+    animation: all 1s;
+    animation: FOCUS_BORDER 2s infinite;
+}
+
+/********** our picks **********/
+.ui-state-highlight{background: #f2f2f2;}
+#ourpicks { width: 100%; height: 12em;  background: #E1E1E1; padding: 10px; overflow:auto;}
+#ourpicks ul { padding-left: 0px;  list-style: none; }
+#ourpicks ul li {display:inline-block; margin: 0 3px; text-align: center; vertical-align: top; font-size: 11px; border: 1px solid #ccc; background: #f1f1f1;}
+#ourpicks ul li .avatar {display:none;}
+ul#gallery { list-style: none; }
+#gallery a, #ourpicks a{cursor: pointer}
+#gallery { width: 100%; min-height: 20em;  background: #EDEDED; padding: 10px; }
+#gallery li {display:inline-block; margin: 0 0.8px; width: 100px; min-height: 230px; text-align: center; vertical-align: top; border: 1px solid #ccc; background: #f1f1f1;}
+#gallery .move-pick {display: none;} 
+.hold-img-news { width: 98px; height: 100px; }
+.pl10 { padding-left: 10px }
+.pr10 { padding-right: 10px }
+/********************/
+
+/*-------------- Slide -----------------------*/
+#slide-sortable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#slide-sortable li { cursor:n-resize; }
+#slide-sortable li:last-child { margin: 0; padding-bottom: 20px; }
+/*-------------- // Slide -----------------------*/
+
+label.filter-block{
+    width: 100%;
+    display: block;
+}
+label.filter-block:hover{
+    color: #333;
+}
+input[type="checkbox"]:checked + label.c-checked{color: #e74c3c; font-weight: bold; font-size: 16px; }
+
+.fix-lang{
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+}
+
+.alert-primary {
+    background-image: -webkit-linear-gradient(top, #cff1f9 0%, #e5f7fc 100%);
+    background-image:         linear-gradient(to bottom, #cff1f9 0%, #e5f7fc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffcff1f9', endColorstr='#ffe5f7fc', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #5dcfec;
+}
+.alert-c1 {
+    background-image: -webkit-linear-gradient(top, #eac1ff 0%, #f3daff 100%);
+    background-image:         linear-gradient(to bottom, #eac1ff 0%, #f3daff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffeac1ff', endColorstr='#fff3daff', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #d175ff;
+}
+.btn-c1 {
+    background-color: #c95bff;
+    border-color: #c95bff;
+    color: #fff;
+}
+.btn-c1.active, .btn-c1.disabled, .btn-c1.disabled.active, .btn-c1.disabled:active, .btn-c1.disabled:focus, .btn-c1.disabled:hover, .btn-c1:active, .btn-c1:focus, .btn-c1.active[disabled], .btn-c1[disabled]:active, .btn-c1[disabled]:focus, .btn-c1[disabled]:hover, .open .btn-c1.dropdown-toggle, fieldset[disabled] .btn-c1.active, fieldset[disabled] .btn-c1:active, fieldset[disabled] .btn-c1:focus, fieldset[disabled] .btn-c1:hover{
+    background-color: #c95bff;
+    border-color: #c95bff;
+    color: #fff;
+}
+.alert-c2 {
+    background-image: -webkit-linear-gradient(top, #d5ffb5 0%, #e0ffc9 100%);
+    background-image:         linear-gradient(to bottom, #d5ffb5 0%, #e0ffc9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd5ffb5', endColorstr='#ffe0ffc9', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #beff8e;
+}
+.btn-c2 {
+    background-color: #45a200;
+    border-color: #45a200;
+    color: #fff;
+}
+.btn-c2.active, .btn-c2.disabled, .btn-c2.disabled.active, .btn-c2.disabled:active, .btn-c2.disabled:focus, .btn-c2.disabled:hover, .btn-c2:active, .btn-c2:focus, .btn-c2.active[disabled], .btn-c2[disabled]:active, .btn-c2[disabled]:focus, .btn-c2[disabled]:hover, .open .btn-c2.dropdown-toggle, fieldset[disabled] .btn-c2.active, fieldset[disabled] .btn-c2:active, fieldset[disabled] .btn-c2:focus, fieldset[disabled] .btn-c2:hover{
+    background-color: #45a200;
+    border-color: #45a200;
+    color: #fff;
+}

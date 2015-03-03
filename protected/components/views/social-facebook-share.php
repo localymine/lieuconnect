@@ -1,0 +1,1 @@
+<div class="fb-share-button fl" data-href="<?php echo $data_href ?>" data-type="button_count" style="margin-top: <?php echo $this->fb_margin_top ?>px;" data-width="450"></div>

@@ -1,0 +1,1 @@
+<div class="fb-like fl" data-href="<?php echo $data_href ?>" data-layout="standard" data-action="like" data-show-faces="true" data-share="false" data-width="450" style="margin-top: -4px;"></div>

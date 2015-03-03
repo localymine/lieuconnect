@@ -1,0 +1,249 @@
+#ajaxloader{
+    width: 100%;
+    height: 100%;
+    /*background: #fff;*/
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:9999 !important;
+    /*    filter: alpha(opacity=10);  internet explorer */
+    /*    -khtml-opacity: 0.10;       khtml, old safari */
+    /*    -moz-opacity: 0.10;        mozilla, netscape */
+    /*    opacity: 0.10;            fx, safari, opera */
+}
+.ajaxloader{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.popover{
+    z-index: 9999;
+}
+
+.error-popover{
+    color: #D92B52;
+}
+.text-required{
+    color: #D92B52;
+}
+
+.hand{
+    cursor: pointer;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+    background-color: #eeeeee;
+    cursor: not-allowed;
+}
+
+.border{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#infinite-scroll-story{height:600px;overflow-y:scroll;}
+.feature .lilely-btn.auto { padding: 0 18px; width: auto; }
+
+.label-info {
+    background-color: #2980b9;
+}
+.label-danger {
+    background-color: #e74c3c;
+}
+.label-warning {
+    background-color: #e67e22;
+}
+.label-success {
+    background-color: #27ae60;
+}
+.label-bronze {
+    background-color: #b7b72a;
+}
+.label {
+    padding: 1px 4px;
+}
+.badge, .label {
+    font-size: 90%;
+    font-weight: 400;
+}
+
+.text-info{
+    color: #2980b9;
+}
+.text-danger{
+    color: #e74c3c;
+}
+.text-warning{
+    color: #e67e22;
+}
+.text-success{
+    color: #27ae60;
+}
+.text-bronze{
+    color: #b7b72a;
+}
+
+.dropdown a.active{ color: #f7941d; text-decoration: none;}
+
+.curator_date{
+    font-size: 14px;
+}
+
+.highlight{
+    text-decoration: underline;
+}
+
+/******************************************************************************/
+#social-wrapper { 
+    display: block;   
+}
+.fl{
+    display: inline;
+    vertical-align:top !important;
+    max-width: 100px;
+}
+.q {
+    float: left;
+    margin-top: 80px;
+}
+.accounts{
+    float:left !important;
+    vertical-align: top !important;
+}
+/******************************************************************************/
+.datepicker{
+    z-index: 9999;
+}
+
+/* for bootbox alert */
+.largeWidth {
+    margin: 0 auto;
+    width: 30%;
+}
+
+.comment a > p{
+    margin: 10px 0;
+}
+.main .quote-author-tag{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #3980FF;
+}
+
+.item .comment {
+    margin-bottom: 10px;
+}
+
+#form-resume-interest label {
+    font-weight: normal;
+}
+#form-resume-interest label > input {
+    margin-right: 5px;
+}
+
+.pratice-list{
+    list-style-type: circle;
+    color: #F8941D;
+}
+ul.pratice-list li{
+    padding: 10px 5px;
+    border-bottom: 1px dashed #eee;
+}
+ul.pratice-list li a{
+    display: block;
+}
+ul.pratice-list li:nth-child(odd){
+    background: #fff;
+}
+ul.pratice-list li:nth-child(even){
+    background: #FCFCFC;
+}
+
+.text-color-story{
+    color: #FA6900;
+}
+.text-color-scholarship{
+    color: #D53645;
+}
+.text-color-internship{
+    color: #CA9A00;
+}
+.text-color-college{
+    color: #2AB53E;
+}
+/*--------- upload avatar my profile ----------*/
+#uploadModal input[type="file"] {
+    background: none repeat scroll 0 0 #eee;
+    border-radius: 5px;
+    padding: 0px;
+}
+#progressbox{
+    border: 1px solid #92c8da;
+    padding: 1px;
+    position: relative;
+    width: auto !important;
+    height: 20px;
+    border-radius: 3px;
+    margin-top: 7px;
+    margin-left: 2px;
+    display:none;
+}
+#progressbar {
+    height: 16px;
+    border-radius: 3px;
+    background-color: #77e0fa;
+    width: 1%;
+}
+#statustxt {
+    top: 3px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    color: #000;
+    font-size: 11px;
+    font-family: arial;
+}
+/**/
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-left: 2px;
+    padding: 0;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+#toTop {
+    background: #00B9E6;
+    border-radius: 50%;
+    bottom: 40px;
+    cursor: pointer;
+    display: block;
+    font-size: 12px;
+    height: auto;
+    opacity: 0;
+    padding: 8px 10px;
+    position: fixed;
+    transition: all 0.3s ease-in-out 0s;
+    width: auto;
+    z-index: 251;
+    margin-left: 1300px;
+}
+#toTop i{
+    color: #fff;
+}
+
+.ccc{
+    color: #ccc;
+}

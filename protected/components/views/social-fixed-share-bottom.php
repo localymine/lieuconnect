@@ -1,0 +1,5 @@
+<a id="ref_fb" href="http://www.facebook.com/sharer.php?s=100&amp;p[title]=<?php echo $title; ?>&amp;p[summary]=<?php echo $description; ?>&amp;p[url]=<?php echo urlencode($share_url); ?>&amp;
+   p[images][0]=<?php echo $image_url; ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');
+           return false;"><img src="<?php echo Yii::app()->theme->baseUrl ?>/img/fb-share-b.png" alt="Facebook Share"/></a>
+<a id="ref_tw" href="http://twitter.com/home?status=<?php echo $title; ?>+<?php echo urlencode($share_url); ?>" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=no,scrollbars=no,height=400,width=600');
+        return false;"><img src="<?php echo Yii::app()->theme->baseUrl ?>/img/tw-share-b.png" alt="Twitter Share"/></a>
